@@ -191,7 +191,7 @@ h6 {
   }
 }
 
-$carousel-height: 500px;
+$carousel-height: 525px;
 
 .carousel {
   height: $carousel-height;
@@ -721,7 +721,7 @@ $speed: 50s;
     flex-flow: row wrap;
     align-items: center;
     justify-items: center;
-    background-color: rgba(#094d81, 0.8);
+    background-color: rgba(#094d81, 1);
 
     // border-radius: 1rem;
     box-shadow: 1px 1px 5px 0px #1e1e1e;

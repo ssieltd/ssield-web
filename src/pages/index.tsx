@@ -10,6 +10,7 @@ export default function Home() {
   return (
     <Layout pageTitle="Shenzhen Sam Steel Exports">
       <Carousel />
+
       <div className="main-points-section">
         <MainPoints />
       </div>
@@ -18,7 +19,7 @@ export default function Home() {
         <Products />
       </div>
       {/* <div style={{backgroundColor: '#094d81'}}> */}
-        <MarketingPoints />
+      <MarketingPoints />
       {/* </div> */}
       <div className="section">
         <div className="heading">Some of our Customers</div>

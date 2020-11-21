@@ -30,7 +30,7 @@ const Sidebar = (props: SidebarProps) => {
   return (
     <div className={attachClass.join(" ")}>
       <div className="close-icon" onClick={props.closeSidebarHandle}>
-        <CloseIcon />
+        <CloseIcon style={{ color: "#fff" }}/>
       </div>
       <NavItems />
     </div>
@@ -44,7 +44,7 @@ const Navbar = (props: NavbarProps) => {
   return (
     <div className="navbar">
       <div className="mobile-only" onClick={props.sidebarToggleClick}>
-        <AppsIcon />
+        <AppsIcon style={{ color: "#fff" }} />
       </div>
       <nav className={"desktop-only"}>
         <NavItems />

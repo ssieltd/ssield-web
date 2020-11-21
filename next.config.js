@@ -1,5 +1,6 @@
 module.exports = {
   poweredByHeader: false,
+  target: 'server',
   exportPathMap: async function (
     defaultPathMap,
     { dev, dir, outDir, distDir, buildId }

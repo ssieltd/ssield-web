@@ -13,7 +13,7 @@ const Footer = (props: { showContact: boolean }) => {
               <div>
                 <div className="logo-footer">
                   <img
-                    src="/images/logo-with-text-white.png"
+                    src="/images/logo-with-text.png"
                     alt="Shenzhen Sam Steel Logo"
                   />
                 </div>
