@@ -1,5 +1,5 @@
-import React, { useCallback, useState } from "react";
-
+import Paper from "@material-ui/core/Paper";
+import React from "react";
 import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
 
@@ -9,61 +9,54 @@ const About: React.FC = () => {
       <PageTitle heading="About Us" />
 
       <div className="about-page">
-        <div className="about-section">
-          <div className="image">
-            <img src="/images/gate.jpg" alt="gate" />
-            {/* <img src="/images/about-pic1.jpg" alt="cylinders" /> */}
+        <div className="about-head">
+          <div className="about-tag">
+            We strives to provide the BEST SERVICE possible with every contact!
           </div>
-
-          <div className="text">
-            <b>
-              <i>Shenzhen Sam Steel Exports</i>
-            </b>{" "}
-            has rich experience in the field of Hydraulic parts, Cylinder,
-            Tubular Stainless Steel manufacturing, such as Honed Tube, Chrome
-            Plated Rods (Piston Rods), Seamless Tube, Stainless Steel Pipes,
-            Hydraulic Cylinder, Pneumatic Cylinder, Pumps and so on..
-            <br />
-            <br />
-            We offer a wide range of sizes to fulfill diverse customer needs,
-            our quality product, cost effective, personalized customer services
-            lead us to achieve good reputation in both domestic and abroad
-            market.
-            <br />
-            <br />
-            Today our company has reached new heights in the exporters of the
-            steel products, can best meet the environment and demand of your
-            particular application.
-            <br />
-            <br />
-            <i>“Highest Quality – Lowest Pricing”</i>
-            <br />
-            <br />
-            We are China based exporter of standard Hydraulic Cylinders,
-            Hydraulic Power Units, distribute Hydraulic Motors among many other
-            products.
-            <br />
-            <br />
-            Serving the mobile equipment industry and our manufacturing
-            operations are certified to the ISO TS16949 standard. We are also a
-            certified OEM production supplier to many large North American based
-            corporations.
-            <br />
-            <br />
-            Our services include on-site visits & support, flexible delivery
-            programs, stocking arrangements, inventory updates, and flexible
-            warranty and of course service with a smile. With a functional ERP
-            system, we have the capability to match our lead time with your
-            forecast to assure a seamless delivery. We strive to deliver our
-            products to you on time every time.
-            <br />
-            <br />
-            Be assured that Shenzhen Sam Steel Export can offer you the best in
-            quality, delivery, and service and of course price.
+          <div className="about-image">
+            <img src="/images/about-us.jpg" alt="gate" />
           </div>
         </div>
 
-        <div className="section-head">Why Us</div>
+        <Paper className="about-text">
+          <h3>
+            <b>Shenzhen Sam Steel Exports</b> has rich experience in the field
+            of hydraulic cylinder manufacturing and steel material.
+          </h3>
+          <br />
+          Hydraulics include Hydraulic Cylinder, Pneumatic Cylinder, Cylinder
+          Components, HPU system, and Hydraulic Cylinder Solution and Technology
+          & Service supporting.
+          <br />
+          <br />
+          Steel material include Stainless Steel and Alloy, Carbon Steel
+          Pipes/Rods/Plates, and some special steel material, etc.
+          <br />
+          <br />
+          Our products are verified by national and international customers, we
+          can also issue third party certificate, such as LR, SGS, BV etc. per
+          request.
+          <br />
+          <br />
+          We offer a wide range of sizes to fulfill diverse customer needs, our
+          quality products, effective cost, personalized customer service lead
+          us to achieve good reputation in both domestic and international
+          markets. Sectors that we service include, agriculture, recycling,
+          mining, marine, mobile, aviation, defense, oil and gas, utilities and
+          heavy industry.
+          <br />
+          <br />
+          Today our company has reached new heights in exporting hydraulic and
+          steel products, can best meet the environment and demand of your
+          particular application.
+          <br />
+          <br />
+          We are looking forward to cooperating with you, welcome to visit us
+          and contact us for any of your inquiries, we will be at your service.
+        </Paper>
+      </div>
+
+      {/* <div className="section-head">Why Us</div>
         <div className="why-section">
           <div className="row">
             <div className="blank"></div>
@@ -130,10 +123,7 @@ const About: React.FC = () => {
               oil is NAS 6-9.
             </div>
           </div>
-        </div>
-
-        <div className="section-head"></div>
-      </div>
+        </div> */}
     </Layout>
   );
 };

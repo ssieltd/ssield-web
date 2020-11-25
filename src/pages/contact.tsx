@@ -127,7 +127,7 @@ const Contact: React.FC = () => {
       <PageTitle heading="Contact Us" />
       <div className="contact-form">
         <div className={"form-section"}>
-          <Paper>
+          <Paper style={{ borderRadius: "1rem" }}>
             {response !== "" ? (
               <div
                 style={{
@@ -329,9 +329,7 @@ const Contact: React.FC = () => {
           <div className="contacts">
             <div className="block">
               <div className="heading">Phone:</div>
-              <div className="line">
-                +86 1 371 459 8749
-              </div>
+              <div className="line">+86 1 371 459 8749</div>
             </div>
             <div className="block">
               <div className="heading">Export Manager:</div>

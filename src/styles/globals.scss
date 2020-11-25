@@ -62,7 +62,7 @@ h6 {
 // HEADER COMPONENT
 .header-main {
   background: #fff url("/images/banner-bg.png") no-repeat fixed center/cover;
-
+  
   .header-bg {
     background-color: rgba($color: #094d81, $alpha: 0.8);
   }
@@ -386,7 +386,6 @@ $carousel-height: 525px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    // text-align: center;
     font-family: "Crimson Text", serif;
     font-size: 3rem;
     font-weight: bold;
@@ -463,42 +462,45 @@ $carousel-height: 525px;
     text-align: center;
   }
 
-  .about-section {
-    display: grid;
-    grid-template-columns: 1fr;
+  .about-head {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
 
-    margin-bottom: 4rem;
-    margin-top: 2rem;
-
-    .image {
-      padding: 0.25rem;
-
+    .about-image {
+      margin: 1rem;
+      width: 625px;
       img {
-        width: 250px;
+        max-width: 100%;
+        height: auto;
         border-radius: 1rem;
-
-        @media only screen and (min-width: 767px) {
-          width: 450px;
-        }
+        box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+          0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+          0px 1px 3px 0px rgba(0, 0, 0, 0.12);
       }
     }
 
-    .text {
+    .about-tag {
+      width: 625px;
       padding: 1rem;
-      margin-left: 1.5rem;
-      margin-top: -1rem;
-      background-color: rgba($color: #353535, $alpha: 0.9);
-      box-shadow: 2px 2px 4px 0px #b3b3b3;
-      color: #fff;
-      font-size: 1rem;
-      border-radius: 1rem;
-
-      @media only screen and (min-width: 767px) {
-        margin-left: 5rem;
-        margin-top: -2rem;
-        font-size: 1.25rem;
-      }
+      font-size: 3rem;
+      // font-family: 'Crimson Text', serif;
+      // font-family: 'Open Sans', sans-serif;
+      // font-family: 'Piazzolla', serif;
+      // font-family: 'Roboto', sans-serif;
+      // font-family: 'Oswald', sans-serif;
+      font-family: "Abril Fatface", cursive;
     }
+  }
+
+  .about-text {
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
   }
 
   .why-section {
@@ -526,14 +528,6 @@ $carousel-height: 525px;
         padding: 0.25rem;
         color: #fff;
       }
-    }
-  }
-
-  .equip-section {
-    img {
-      border-radius: 1rem;
-      padding: 0.25rem;
-      // border: 1px solid #1e1e1e;
     }
   }
 }
@@ -647,7 +641,7 @@ $speed: 50s;
 
   .details {
     padding: 1rem;
-
+    border-radius: 1rem;
     .intro {
       margin-bottom: 3rem;
       padding: 0;
