@@ -62,7 +62,7 @@ h6 {
 // HEADER COMPONENT
 .header-main {
   background: #fff url("/images/banner-bg.png") no-repeat fixed center/cover;
-  
+
   .header-bg {
     background-color: rgba($color: #094d81, $alpha: 0.8);
   }
@@ -193,7 +193,7 @@ h6 {
 
 $carousel-height: 525px;
 
-.carousel {
+.carousel-main {
   height: $carousel-height;
   background: #fff url("/images/banner-bg.png") no-repeat fixed center/cover;
   img {
@@ -462,6 +462,26 @@ $carousel-height: 525px;
     text-align: center;
   }
 
+  .gallary {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+
+    div {
+      padding: 0.25rem;
+      margin: 1rem 0.2rem;
+      width: 415px;
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 1rem;
+        box-shadow: 1px 1px 4px 0px #1e1e1e;
+      }
+    }
+  }
+
   .about-head {
     margin-bottom: 2rem;
     margin-top: 1rem;
@@ -477,9 +497,7 @@ $carousel-height: 525px;
         max-width: 100%;
         height: auto;
         border-radius: 1rem;
-        box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-          0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-          0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        box-shadow: 1px 1px 4px 0px #1e1e1e;
       }
     }
 
@@ -497,38 +515,10 @@ $carousel-height: 525px;
   }
 
   .about-text {
-    margin: 2rem;
+    margin: 1rem;
     padding: 2rem;
     font-size: 1.5rem;
     border-radius: 1rem;
-  }
-
-  .why-section {
-    .row {
-      font-size: 1rem;
-      display: grid;
-      grid-template-columns: 30px 1fr;
-      margin-bottom: 2rem;
-      background-color: #116db5;
-      padding: 0.5rem;
-      border-radius: 1rem;
-      column-gap: 1rem;
-      @media only screen and (min-width: 767px) {
-        font-size: 1.25rem;
-      }
-
-      .blank {
-        background-color: #fbfbfb;
-        height: 30px;
-        padding: 1rem;
-        border-radius: 50%;
-      }
-
-      .text {
-        padding: 0.25rem;
-        color: #fff;
-      }
-    }
   }
 }
 
@@ -699,23 +689,79 @@ $speed: 50s;
     text-align: center;
   }
 
-  .sp-section {
-    .text {
-      padding: 1rem 2rem;
-      font-size: 1.2rem;
+  .section-details {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .row {
+      width: 650px;
+      font-size: 1.25rem;
+      display: grid;
+      grid-template-columns: 30px 1fr;
+      margin-bottom: 2rem;
+      // background-color: #e2e2e2;
+      padding: 0.5rem;
+      border-radius: 1rem;
+      column-gap: 1rem;
+      // box-shadow: 1px 1px 4px 0px #1e1e1e;
       @media only screen and (min-width: 767px) {
         font-size: 1.5rem;
+
+        &:nth-child(1) {
+          margin-right: 1rem;
+        }
+      }
+
+      .blank {
+        background-color: #094d81;
+        height: 10px;
+        width: 10px;
+        margin-top: .6rem;
+        padding: 1rem;
+        border-radius: 50%;
+        // box-shadow: 1px 1px 4px 0px #1e1e1e;
+      }
+
+      .text {
+        padding: .5rem;
+        color: #1e1e1e;
+
+        .sub-row {
+          font-size: 1.25rem;
+          // display: grid;
+          // grid-template-columns: 1fr;
+          margin-bottom: 1rem;
+          background-color: #e2e2e2;
+          padding: 0.5rem;
+          border-radius: 1rem;
+          column-gap: 1rem;
+          // box-shadow: 1px 1px 4px 0px #1e1e1e;
+          @media only screen and (min-width: 767px) {
+            font-size: 1.5rem;
+          }
+
+          .sub-blank {
+            // background-color: #094d81;
+            height: 15px;
+            width: 15px;
+            margin-top: 0.6rem;
+            padding: .3rem;
+            // border-radius: 50%;
+          }
+
+          .sub-text {
+            padding: .5rem;
+            color: #1e1e1e;
+          }
+        }
       }
     }
   }
 
-  .equip-section {
-    img {
-      border-radius: 1rem;
-      padding: 0.25rem;
-      // border: 1px solid #1e1e1e;
-    }
-  }
+  // .equip-section {
+  //   .carousel-root {
+  //   }
+  // }
 }
 
 .marketing-points {

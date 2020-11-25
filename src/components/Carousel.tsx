@@ -16,7 +16,7 @@ const Carousel = () => {
 
   return (
     <>
-      <Slider {...settings} className={"carousel"}>
+      <Slider {...settings} className={"carousel-main"}>
         <div className="container">
           <div className="slide">
             <div className="text">

@@ -54,76 +54,21 @@ const About: React.FC = () => {
           We are looking forward to cooperating with you, welcome to visit us
           and contact us for any of your inquiries, we will be at your service.
         </Paper>
+
+        <div className="gallary">
+          <div>
+            <img src="/images/about-pic-1.jpg" alt="About Us" />
+          </div>
+          <div>
+            <img src="/images/about-pic-2.jpg" alt="About Us" />
+          </div>
+          <div>
+            <img src="/images/about-pic-3.jpg" alt="About Us" />
+          </div>
+        </div>
       </div>
 
-      {/* <div className="section-head">Why Us</div>
-        <div className="why-section">
-          <div className="row">
-            <div className="blank"></div>
-            <div className="text">
-              Our cylinders are designed by CAD or 3D, and have been through
-              ISO9001:2000 international quality system certification. Our
-              production is managed according to ERP. These factors ensure our
-              quality to be the top three in China. Warranty period for our
-              cylinder is 2 years. For some special cylinders, the period is 5
-              years. All the drawings, records of production and inspection
-              would be kept for 10 years.
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="blank"></div>
-            <div className="text">
-              We choose accessories according to customers’ requirements.
-              Usually, brands of seals are PARKER, MERKEL or NOK, valves are SUN
-              or REXROTH, bearings are LONGXI or SKF, displacement sensors are
-              MTS or WALSH, and proximity switches are BALLUFF.
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="blank"></div>
-            <div className="text">
-              The delivery speed is fast, the average delivery time is 30-60
-              days. Our annual quantity for hydraulic cylinder is more than 100
-              thousand pieces.
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="blank"></div>
-            <div className="text">
-              Classifications include DNV, ABS, LR, BV, GL, CCS, RINA, KR, NK,
-              RS.
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="blank"></div>
-            <div className="text">
-              Our advanced producing equipments included DOSHAAN machine center,
-              CNC Lather, TACHI scraping roller burnishing machine etc.
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="blank"></div>
-            <div className="text">
-              Welding technology certificates from GL and CCS.
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="blank"></div>
-            <div className="text">
-              High Precision: Honed Tube (Roughness of tube is 0.2μm and
-              straightness is less than 0.15/1000), Piston Rod (Plating
-              thickness is 10-100 micron. Surface roughness is 0.2μm and
-              straightness is also less than 0.15/1000) The purity of hydraulic
-              oil is NAS 6-9.
-            </div>
-          </div>
-        </div> */}
+      
     </Layout>
   );
 };

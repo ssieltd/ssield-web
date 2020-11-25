@@ -122,6 +122,8 @@ const Footer = (props: { showContact: boolean }) => {
                         info@ssieltd.com
                         <br />
                         ssamieco@qq.com
+                        <br />
+                        ssamieco01@qq.com
                       </div>
                     </div>
                   </div>
