@@ -16,6 +16,32 @@ export default function HydraulicCylinders() {
           />
         </div>
         <Paper className="details">
+          <div className="intro">
+            <div className="intro-text">
+              Our <b>Hydraulics Cylinders</b> have been used in a wide range of
+              industries:
+              <ul>
+                <li>General Industry</li>
+                <li>Agricultural</li>
+                <li>Earthmoving</li>
+                <li>Mining</li>
+                <li>Waste Management</li>
+                <li>Manufacturing Applications</li>
+                <li>Transport</li>
+                <li>Marine, Offshore etc...</li>
+              </ul>
+            </div>
+            <div className="intro-text">
+              More than 100 sets different machines (Tacchi etc.). <br />
+              70% are CNC machines (Doosan etc.).
+            </div>
+            <div className="intro-text">
+              We have abundant exporting experiences to Asia, Middle East,
+              Europe, Australasia, etc., We offer high quality products and
+              services to customers worldwide.
+            </div>
+          </div>
+
           <div style={{ textTransform: "uppercase", fontWeight: "bold" }}>
             Bore Range
           </div>
@@ -40,7 +66,7 @@ export default function HydraulicCylinders() {
           <div>700 bar</div>
           <br />
 
-          <div style={{ textTransform: "uppercase", fontWeight: "bold" }}>
+          {/* <div style={{ textTransform: "uppercase", fontWeight: "bold" }}>
             Applications
           </div>
           <div>
@@ -60,7 +86,7 @@ export default function HydraulicCylinders() {
             <br />
             - Heavy duty foldable craneb
             <br />
-          </div>
+          </div> */}
           <div className="gallary">
             <div>
               <img
