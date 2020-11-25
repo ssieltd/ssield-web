@@ -9,10 +9,10 @@ import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 
-export default function HonedSeamlessTubes() {
+export default function HonedTubes() {
   return (
-    <Layout pageTitle="Honed Seamless Tubes | Shenzhen Sam Steel Exports">
-      <PageTitle heading="Honed Seamless Tubes" />
+    <Layout pageTitle="Honed Tubes | Shenzhen Sam Steel Exports">
+      <PageTitle heading="Honed Tubes" />
 
       <div className="product-detail-page">
         <div className="image">

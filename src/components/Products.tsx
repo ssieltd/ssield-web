@@ -11,8 +11,8 @@ const Products = () => {
       />
       <ProductTile
         imgSrc="/products/honed-tubes.png"
-        title="Honed Seamless Tubes"
-        link="/products/honed-seamless-tubes"
+        title="Honed Tubes"
+        link="/products/honed-tubes"
       />
       <ProductTile
         imgSrc="/products/chrome-rod.png"
@@ -21,8 +21,8 @@ const Products = () => {
       />
       <ProductTile
         imgSrc="/products/stainless-steel-pipes-tubes.png"
-        title="Stainless Steel Seamless Pipes"
-        link="/products/stainless-steel-seamless-pipes"
+        title="Stainless Steel Pipes"
+        link="/products/stainless-steel-pipes"
       />
       <ProductTile
         imgSrc="/products/high-speed-tool-steel.png"

@@ -3,10 +3,10 @@ import React from "react";
 import Layout from "../../components/Layout";
 import PageTitle from "../../components/PageTitle";
 
-export default function StainlessSteelSeamlessPipes() {
+export default function StainlessSteelPipes() {
   return (
-    <Layout pageTitle="Stainless Steel Seamless Pipes | Shenzhen Sam Steel Exports">
-      <PageTitle heading="Stainless Steel Seamless Pipes" />
+    <Layout pageTitle="Stainless Steel Pipes | Shenzhen Sam Steel Exports">
+      <PageTitle heading="Stainless Steel Pipes" />
 
       <div className="product-detail-page">
         <div className="image">
