@@ -419,27 +419,50 @@ $carousel-height: 525px;
   }
 
   .address-section {
-    padding: 2rem;
+    // padding: 2rem;
     display: flex;
+    text-align: center;
     flex-flow: column;
     font-size: 1.2rem;
 
-    .logo-contact {
-      margin-bottom: 1rem;
-      img {
-        width: 250px;
-        margin: 0;
+    .logo-contact-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .logo-contact {
+        margin-bottom: 1rem;
+        img {
+          width: 100%;
+          max-width: 350px;
+          height: auto;
+          margin: 0;
+        }
+      }
+
+      .contact-img {
+        text-align: right;
+        img {
+          width: 100%;
+          min-width: 150px;
+          height: auto;
+          margin: 0;
+        }
       }
     }
 
     .contacts {
       margin-top: 1rem;
-
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
       .block {
+        width: 300px;
         margin-bottom: 0.5rem;
-
+        &:nth-last-child(n) {
+          margin-bottom: 2rem;
+        }
         .heading {
-          margin-top: 1rem;
+          margin-top: 0.5rem;
           font-size: 0.8rem;
           font-weight: bold;
         }
@@ -716,14 +739,14 @@ $speed: 50s;
         background-color: #094d81;
         height: 10px;
         width: 10px;
-        margin-top: .6rem;
+        margin-top: 0.6rem;
         padding: 1rem;
         border-radius: 50%;
         // box-shadow: 1px 1px 4px 0px #1e1e1e;
       }
 
       .text {
-        padding: .5rem;
+        padding: 0.5rem;
         color: #1e1e1e;
 
         .sub-row {
@@ -745,12 +768,12 @@ $speed: 50s;
             height: 15px;
             width: 15px;
             margin-top: 0.6rem;
-            padding: .3rem;
+            padding: 0.3rem;
             // border-radius: 50%;
           }
 
           .sub-text {
-            padding: .5rem;
+            padding: 0.5rem;
             color: #1e1e1e;
           }
         }

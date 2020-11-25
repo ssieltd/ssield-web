@@ -95,9 +95,9 @@ const Footer = (props: { showContact: boolean }) => {
                     <div className="block">
                       <div className="heading">Address:</div>
                       <div className="line">
-                        1415 Shangmeishidai Building.
+                        Shangmeishidai Building.
                         <br />
-                        Longgang East Room. No. 57
+                        No. 57 Longgang East Room
                         <br />
                         Longhua Distt.
                         <br />
@@ -108,7 +108,7 @@ const Footer = (props: { showContact: boolean }) => {
                   <div className="col">
                     <div className="block">
                       <div className="heading">Phone:</div>
-                      <div className="line">+86 1 372 432 2268 </div>
+                      <div className="line">+86 1 372 432 2268</div>
                     </div>
                     <div className="block">
                       <div className="heading">Fax:</div>

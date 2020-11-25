@@ -2,8 +2,21 @@ import Paper from "@material-ui/core/Paper";
 import React from "react";
 import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
+import Slider from "react-slick";
 
 const About: React.FC = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    fade: true,
+    arrows: false,
+    autoplay: true,
+    speed: 1000,
+    autoplaySpeed: 2500,
+  };
+
   return (
     <Layout pageTitle="About Us | Shenzhen Sam Steel Exports">
       <PageTitle heading="About Us" />
@@ -14,7 +27,17 @@ const About: React.FC = () => {
             We strives to provide the BEST SERVICE possible with every contact!
           </div>
           <div className="about-image">
-            <img src="/images/about-us.jpg" alt="gate" />
+            <Slider {...settings}>
+              <div>
+                <img src="/images/about-us.jpg" alt="gate" />
+              </div>
+              <div>
+                <img src="/images/about-pic-2.jpg" alt="About Us" />
+              </div>
+              <div>
+                <img src="/images/about-pic-3.jpg" alt="About Us" />
+              </div>
+            </Slider>
           </div>
         </div>
 
@@ -55,7 +78,7 @@ const About: React.FC = () => {
           and contact us for any of your inquiries, we will be at your service.
         </Paper>
 
-        <div className="gallary">
+        {/* <div className="gallary">
           <div>
             <img src="/images/about-pic-1.jpg" alt="About Us" />
           </div>
@@ -65,10 +88,8 @@ const About: React.FC = () => {
           <div>
             <img src="/images/about-pic-3.jpg" alt="About Us" />
           </div>
-        </div>
+        </div> */}
       </div>
-
-      
     </Layout>
   );
 };

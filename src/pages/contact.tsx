@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import Layout from "../components/Layout";
-import PageTitle from "../components/PageTitle";
-import * as yup from "yup";
-import FormRender, { FormErrors } from "../hoc/FormRender";
+import Button from "@material-ui/core/Button";
+import ButtonGroup from "@material-ui/core/ButtonGroup";
 import Paper from "@material-ui/core/Paper";
 import TextField from "@material-ui/core/TextField";
-import ButtonGroup from "@material-ui/core/ButtonGroup";
-import Button from "@material-ui/core/Button";
+import React, { useState } from "react";
+import * as yup from "yup";
+import Layout from "../components/Layout";
 import Loader from "../components/Loader";
+import PageTitle from "../components/PageTitle";
+import FormRender, { FormErrors } from "../hoc/FormRender";
 
 interface ContactForm {
   firstName: string;
@@ -126,6 +126,54 @@ const Contact: React.FC = () => {
 
       <PageTitle heading="Contact Us" />
       <div className="contact-form">
+        <div className="address-section">
+          <div className="logo-contact-img">
+            <div className="logo-contact">
+              <img
+                src="/images/logo-with-text.png"
+                alt="Shenzhen Sam Steel Logo"
+              />
+            </div>
+            <div className="contact-img">
+              <img src="/images/contact-us.png" alt="Contact us" />
+            </div>
+          </div>
+
+          <div className="address">
+            Shangmeishidai Building.
+            <br />
+            No. 57 Longgang East Room.
+            <br />
+            Longhua Distt.
+            <br />
+            Shanzhen, China.
+          </div>
+
+          <div className="contacts">
+            <div className="block">
+              <div className="heading">Phone:</div>
+              <div className="line">+86 1 371 459 8749</div>
+            </div>
+            <div className="block">
+              <div className="heading">Export Manager:</div>
+              <div className="line">+86 1 372 432 2268</div>
+            </div>
+            <div className="block">
+              <div className="heading">Fax:</div>
+              <div className="line">+86 755 33 26 3717</div>
+            </div>
+            <div className="block">
+              <div className="heading">Email (For General Inquires):</div>
+              <div className="line">info@ssieltd.com</div>
+              <div className="line">ssamieco01@qq.com</div>
+            </div>
+            <div className="block">
+              <div className="heading">Email (Sales Manager):</div>
+              <div className="line">ssamieco@qq.com</div>
+            </div>
+          </div>
+        </div>
+
         <div className={"form-section"}>
           <Paper style={{ borderRadius: "1rem" }}>
             {response !== "" ? (
@@ -305,49 +353,6 @@ const Contact: React.FC = () => {
               }}
             />
           </Paper>
-        </div>
-
-        <div className="address-section">
-          <div>
-            <div className="logo-contact">
-              <img
-                src="/images/logo-with-text.png"
-                alt="Shenzhen Sam Steel Logo"
-              />
-            </div>
-            <div className="address">
-              1415 Shangmeishidai Building.
-              <br />
-              Longgang East Room. No. 57
-              <br />
-              Longhua Distt.
-              <br />
-              Shanzhen, China.
-            </div>
-          </div>
-
-          <div className="contacts">
-            <div className="block">
-              <div className="heading">Phone:</div>
-              <div className="line">+86 1 371 459 8749</div>
-            </div>
-            <div className="block">
-              <div className="heading">Export Manager:</div>
-              <div className="line">+86 1 342 432 2268</div>
-            </div>
-            <div className="block">
-              <div className="heading">Fax:</div>
-              <div className="line">+86 755 33 26 3717</div>
-            </div>
-            <div className="block">
-              <div className="heading">Email (For General Inquires):</div>
-              <div className="line">info@ssieltd.com</div>
-            </div>
-            <div className="block">
-              <div className="heading">Email (Sales Manager):</div>
-              <div className="line">ssamieco@qq.com</div>
-            </div>
-          </div>
         </div>
       </div>
     </Layout>
