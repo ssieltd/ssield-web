@@ -43,8 +43,8 @@ const Footer = (props: { showContact: boolean }) => {
                       </div>
 
                       <div className="link">
-                        <Link href="/products/honed-seamless-tubes">
-                          <a>Honed Seamless Tubes</a>
+                        <Link href="/products/honed-tubes">
+                          <a>Honed Tubes</a>
                         </Link>
                       </div>
                     </div>
@@ -57,8 +57,8 @@ const Footer = (props: { showContact: boolean }) => {
                       </div>
 
                       <div className="link">
-                        <Link href="/products/stainless-steel-seamless-pipes">
-                          <a>Stainless Steel Seamless Pipes</a>
+                        <Link href="/products/stainless-steel-pipes">
+                          <a>Stainless Steel Pipes</a>
                         </Link>
                       </div>
 
