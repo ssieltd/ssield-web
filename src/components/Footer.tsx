@@ -101,7 +101,7 @@ const Footer = (props: { showContact: boolean }) => {
                         <br />
                         Longhua Distt.
                         <br />
-                        Shanzhen, China.
+                        Shenzhen, China.
                       </div>
                     </div>
                   </div>

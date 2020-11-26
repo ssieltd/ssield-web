@@ -6,7 +6,7 @@ export default function SocialIcons() {
       <ul>
         <li>
           <a
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/ShenzhenSamSteelExports"
             target="_blank"
             referrerPolicy="no-referrer"
             rel="noreferrer"
