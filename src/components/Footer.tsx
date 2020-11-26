@@ -31,8 +31,8 @@ const Footer = (props: { showContact: boolean }) => {
                       </div>
 
                       <div className="link">
-                        <Link href="/manufacturing-equipment">
-                          <a>Manufacturing Equipment</a>
+                        <Link href="/our-facility">
+                          <a>Our Facility</a>
                         </Link>
                       </div>
 
