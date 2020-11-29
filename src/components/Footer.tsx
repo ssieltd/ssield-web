@@ -97,7 +97,7 @@ const Footer = (props: { showContact: boolean }) => {
                       <div className="line">
                         Shangmeishidai Building.
                         <br />
-                        No. 57 Longgang East Room
+                        No. 57 Long guan East Rd.
                         <br />
                         Longhua Distt.
                         <br />

@@ -24,7 +24,8 @@ const About: React.FC = () => {
       <div className="about-page">
         <div className="about-head">
           <div className="about-tag">
-            We strives to provide the BEST SERVICE possible with every contact!
+            We strive to provide HIGH QUALITY PRODUCTS and BEST SERVICE possible
+            for every customer!
           </div>
           <div className="about-image">
             <Slider {...settings}>

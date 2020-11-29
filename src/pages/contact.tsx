@@ -139,17 +139,15 @@ const Contact: React.FC = () => {
             </div>
           </div>
 
-          <div className="address">
-            Shangmeishidai Building.
+          <div className="address" style={{ paddingLeft: "1rem" }}>
+            Shangmeishidai Building., {/* <br /> */}
+            No. 57 Long guan East Rd.,
             <br />
-            No. 57 Longgang East Room.
-            <br />
-            Longhua Distt.
-            <br />
+            Longhua Distt., {/* <br /> */}
             Shanzhen, China.
           </div>
 
-          <div className="contacts">
+          <div className="contacts" style={{ paddingLeft: "1rem" }}>
             <div className="block">
               <div className="heading">Phone:</div>
               <div className="line">+86 1 371 459 8749</div>

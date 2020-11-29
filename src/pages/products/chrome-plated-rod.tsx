@@ -137,37 +137,49 @@ export default function ChromePlatedRod() {
             <div>
               <img
                 src="/products/chrome-plated-rod/1.jpg"
-                alt="Honed Seamless Tubes"
+                alt="Honed Tubes"
               />
             </div>
-            <div>
+            {/* <div>
               <img
                 src="/products/chrome-plated-rod/2.jpg"
-                alt="Honed Seamless Tubes"
+                alt="Honed Tubes"
               />
-            </div>
+            </div> */}
             <div>
               <img
                 src="/products/chrome-plated-rod/3.jpg"
-                alt="Honed Seamless Tubes"
+                alt="Honed Tubes"
               />
             </div>
             <div>
               <img
                 src="/products/chrome-plated-rod/4.jpg"
-                alt="Honed Seamless Tubes"
+                alt="Honed Tubes"
               />
             </div>
             <div>
               <img
                 src="/products/chrome-plated-rod/5.jpg"
-                alt="Honed Seamless Tubes"
+                alt="Honed Tubes"
+              />
+            </div>
+            {/* <div>
+              <img
+                src="/products/chrome-plated-rod/6.jpg"
+                alt="Honed Tubes"
+              />
+            </div> */}
+            <div>
+              <img
+                src="/products/chrome-plated-rod/7.jpg"
+                alt="Honed Tubes"
               />
             </div>
             <div>
               <img
-                src="/products/chrome-plated-rod/6.jpg"
-                alt="Honed Seamless Tubes"
+                src="/products/chrome-plated-rod/8.jpg"
+                alt="Honed Tubes"
               />
             </div>
           </div>

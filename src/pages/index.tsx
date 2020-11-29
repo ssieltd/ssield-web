@@ -14,8 +14,8 @@ export default function Home() {
       <div className="main-points-section">
         <MainPoints />
       </div>
-      <div className="section">
-        <div className="heading">Our Products</div>
+      <div className="section" style={{ paddingBottom: "5rem" }}>
+        {/* <div className="heading">Our Products</div> */}
         <Products />
       </div>
       {/* <div style={{backgroundColor: '#094d81'}}> */}
