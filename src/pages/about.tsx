@@ -30,7 +30,7 @@ const About: React.FC = () => {
           <div className="about-image">
             <Slider {...settings}>
               <div>
-                <img src="/images/about-us.jpg" alt="gate" />
+                <img src="/images/about-pic-1.jpg" alt="gate" />
               </div>
               <div>
                 <img src="/images/about-pic-2.jpg" alt="About Us" />

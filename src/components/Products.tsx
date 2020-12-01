@@ -5,7 +5,7 @@ const Products = () => {
   return (
     <div className="products-grid">
       <div className="category">
-        <div className="heading">Hydraulic Products</div>
+        {/* <div className="heading">Hydraulic Products</div> */}
         <div className="items">
           <ProductTile
             imgSrc="/products/hydraulic-cylinders.png"
@@ -25,7 +25,7 @@ const Products = () => {
         </div>
       </div>
       <div className="category">
-        <div className="heading">Steel Material Products</div>
+        {/* <div className="heading">Steel Material Products</div> */}
         <div className="items">
           <ProductTile
             imgSrc="/products/stainless-steel-pipes-tubes.png"
